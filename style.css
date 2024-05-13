@@ -1,0 +1,29 @@
+@font-face {
+ font-family: china;
+ src: url("./NeueMachina-Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+ height: 100%;
+ width: 100%;
+}
+
+#main{
+        overflow: hidden;
+}
+
+.content h1 {
+ font-family: china !important;
+}
+
+.content{
+ transform: translateX(-100%);
+}
+
